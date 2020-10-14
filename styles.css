@@ -1,0 +1,23 @@
+body {
+  background-color: #1e4650;
+  font-family: 'Mulish', sans-serif;
+}
+
+.collapse-bar {
+  color: aliceblue;
+  background-color: #17363d;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 10px;
+  border: 1px solid #14232d;
+  height: 30px;
+  align-items: center;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+.collapse-bar:hover {
+  cursor: pointer;
+  background-color: #14232d;
+}

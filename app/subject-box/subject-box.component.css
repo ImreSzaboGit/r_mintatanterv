@@ -1,0 +1,57 @@
+.blue {
+  background-color: #4b4bff;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.blocker {
+  animation: blinking 500ms infinite;
+}
+
+@keyframes blinking {
+  0% { background-color: #14232d }
+  50% { background-color: red }
+  100% { background-color: #14232d }
+}
+
+#subject-box-wrapper {
+  display: flex;
+  margin: 5px;
+}
+
+.color-tab {
+  width: 20px;
+  height: 94px;
+  margin-left: -10px;
+  z-index: -1;
+  border-radius: 6px;
+}
+
+.subject-button {
+  width: 250px;
+  height: 80px;
+  border: 2px outset;
+  border-radius: 6px;
+  display: flex;
+  padding: 5px;
+  background-color: #14232d;
+  color: aliceblue;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.subject-button:hover {
+  cursor: pointer;
+  background-color: #1e4550;
+}
+
+.box-last-line {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,32 @@
+<div class="collapse-bar" (click)="showPanel = !showPanel">
+    <span>Kezelőpanel</span>
+    <span *ngIf="!showPanel">+</span>
+    <span *ngIf="showPanel">-</span>
+</div>
+
+<div class="control-box-wrapper" *ngIf="showPanel">
+  <div class="control-panel-wrapper">
+    <button class="control-button" (click)="controlData('load', inputText)">Betölt</button>
+    <button class="control-button" (click)="controlData('save', inputText)">Ment</button>
+    <input class="control-input" type="text" [(ngModel)]="inputText">
+    <button class="control-button" (click)="controlData('reset', null)">Alapállapot</button>
+  </div>
+
+  <div class="info-panel-wrapper">
+      <ul>
+        <li class="blue">Felvehető</li>
+        <li class="green">Elvégzett</li>
+        <li class="red">Nem vehető fel</li>
+      </ul>
+  </div>
+
+  <div class="info-text">
+    <p>Ez az alkalmazás a PTI mintatanterv
+      alapján készült. A 'Tantárgyak' blokkban
+      tudod kiválasztani az elvégzett tárgyaidat.
+      A 'Kezelőpanelen' elmentheted egy profilba,
+      amit vissza is tölthetsz, valamint alaphelyzetbe
+      állíthatod a tárgyak státuszát.
+    </p>
+  </div>
+</div>

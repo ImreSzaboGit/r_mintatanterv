@@ -1,0 +1,21 @@
+<div id="subject-box-wrapper">
+    <div (click)="onClickButton()" [ngClass]="{'blocker': subject.blocker}" class="subject-button">
+      <div>
+        <span>{{subject.name}} ({{subject.id}}) </span><br>
+      </div>
+      <div class="box-bottom">
+        <span *ngIf="subject.precondition">Előfeltétel: {{subject.precondition}}</span>
+        <span *ngIf="!subject.precondition">Előfeltétel: nincs</span>
+        <div class="box-last-line">
+          <span>Ajánlott félév: {{subject.semester}}</span>
+          <span>Kredit: {{subject.credit}}</span>
+        </div>
+      </div>
+    </div>
+
+  <div  [ngClass]="{
+  'green': subject.passed && !subject.blocked,
+  'blue': !subject.passed && !subject.blocked,
+  'red': subject.blocked
+  }" class="color-tab"></div>
+</div>

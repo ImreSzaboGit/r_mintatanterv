@@ -1,0 +1,45 @@
+﻿name;id;precondition;passed;blocked;semester;credit;blocker
+;;;;;;;
+Digitális alkalmazások;BAI0001;;FALSE;FALSE;1;3;FALSE
+Lineáris algebra;BPI1101;;FALSE;FALSE;1;6;FALSE
+Logikai alapok a programozáshoz;BPI1102;;FALSE;FALSE;1;5;FALSE
+Programozási nyelvek I.;BPI1103;;FALSE;FALSE;1;6;FALSE
+Számítógép architektúrák;BPI1105;;FALSE;FALSE;1;3;FALSE
+Bevezetés az informatikába;BPI1106;;FALSE;FALSE;1;4;FALSE
+Környezet és ember;BAI0002;;FALSE;FALSE;2;2;FALSE
+Diszkrét matematika;BPI1207;;FALSE;FALSE;2;6;FALSE
+Adatszerkezetek és algoritmusok;BPI1208;BPI1103;FALSE;FALSE;2;3;FALSE
+Programozási nyelvek II.;BPI1204;BPI1103;FALSE;FALSE;2;6;FALSE
+Operációs rendszerek;BPI1209;;FALSE;FALSE;2;6;FALSE
+Adatbázisrendszerek;BPI1210;;FALSE;FALSE;2;5;FALSE
+Analízis;BPI1111;;FALSE;FALSE;3;6;FALSE
+Operációkutatás;BPI1112;BPI1101;FALSE;FALSE;3;5;FALSE
+Programozási technológiák;BPI1113;BPI1103;FALSE;FALSE;3;4;FALSE
+Hálózati architektúrák és osztott rendszerek;BPI1114;;FALSE;FALSE;3;3;FALSE
+Szakmai gyakorlat I.;BPI1115;;FALSE;FALSE;3;0;FALSE
+A rendszerfejlesztés technológiája és módszertana;BPI2118;BPI1204;FALSE;FALSE;3;5;FALSE
+Rendszerközeli programozás;BPI2119;BPI1209;FALSE;FALSE;3;3;FALSE
+Numerikus analízis;BPI1220;BPI1111;FALSE;FALSE;4;4;FALSE
+Valószínűségszámítás és statisztika;BPI1221;BPI1111;FALSE;FALSE;4;5;FALSE
+Algoritmusok tervezése és elemzése;BPI1222;;FALSE;FALSE;4;3;FALSE
+Programozási környezetek;BPI1223;BPI1204;FALSE;FALSE;4;3;FALSE
+Internet eszközök és szolgáltatások;BPI1224;;FALSE;FALSE;4;4;FALSE
+Szakmai gyakorlat II.;BPI1216;;FALSE;FALSE;4;0;FALSE
+Számítógépi grafika;BPI2225;BPI1103;FALSE;FALSE;4;4;FALSE
+Linux és shell programozás;BPI2226;BPI1209;FALSE;FALSE;4;3;FALSE
+Formális nyelvek, automaták;BPI1127;;FALSE;FALSE;5;4;FALSE
+Szakdolgozat I.;BPI1128;;FALSE;FALSE;5;10;FALSE
+Szakmai gyakorlat III.;BPI1117;;FALSE;FALSE;5;0;FALSE
+Mobilalkalmazás-fejlesztés;BPI2130;BPI1113;FALSE;FALSE;5;4;FALSE
+Adatbázisrendszerek üzemeltetése;BPI2131;BPI1210;FALSE;FALSE;5;3;FALSE
+Hálózati operációs rendszerek és IoT technológia;BPI2132;BPI1209;FALSE;FALSE;5;3;FALSE
+Számítógépes szimulációk módszertana;BPI2133;BPI1103;FALSE;FALSE;5;3;FALSE
+GUI programozás;BPI2134;BPI1113;FALSE;FALSE;5;4;FALSE
+Mesterséges intelligencia;BPI1235;BPI1204;FALSE;FALSE;6;4;FALSE
+Számításelmélet;BPI1236;BPI1127;FALSE;FALSE;6;3;FALSE
+Fordítóprogramok;BPI1237;BPI1127;FALSE;FALSE;6;3;FALSE
+Informatikai jogi és vállalkozási ismeretek;BPI1238;;FALSE;FALSE;6;3;FALSE
+Szakdolgozat II.;BPI1229;;FALSE;FALSE;6;10;FALSE
+Játékelmélet;BPI2239;BPI2133;FALSE;FALSE;6;3;FALSE
+Informatikai biztonság;BPI2240;;FALSE;FALSE;6;3;FALSE
+Web-alkalmazas-fejlesztés projektmunkában;BPI2241;BPI1204;FALSE;FALSE;6;3;FALSE

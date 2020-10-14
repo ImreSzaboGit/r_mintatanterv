@@ -1,0 +1,10 @@
+<div class="collapse-bar" (click)="showSubjects = !showSubjects">
+  <span>Tantárgyak</span>
+  <span *ngIf="!showSubjects">+</span>
+  <span *ngIf="showSubjects">-</span>
+</div>
+<div *ngIf="showSubjects" id="subject-box-wrapper">
+  <div *ngFor="let subject of subjects">
+    <app-subject-box (changePassed)="togglePassed(subject)" [subject]="subject"></app-subject-box>
+  </div>
+</div>

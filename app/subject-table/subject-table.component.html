@@ -1,0 +1,39 @@
+<div class="collapse-bar" (click)="tableShow = !tableShow">
+  <span>Táblák</span>
+  <span *ngIf="!tableShow">+</span>
+  <span *ngIf="tableShow">-</span>
+</div>
+<div *ngIf="tableShow" class="table-wrapper">
+    <div class="subject-table">
+      <div class="table-title">
+        <span>Felvehető tárgyak</span>
+      </div>
+      <div class="list-column">
+        <ul *ngFor="let item of subjects">
+          <li *ngIf="!item.passed && !item.blocked">{{item.name}} ({{item.id}})</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="subject-table">
+      <div class="table-title">
+        <span>Nem felvehető tárgyak</span>
+      </div>
+      <div class="list-column">
+        <ul *ngFor="let item of subjects">
+          <li *ngIf="item.blocked">{{item.name}} ({{item.id}})</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="subject-table">
+      <div class="table-title">
+        <span>Elvégzett tárgyak</span>
+      </div>
+      <div class="list-column">
+        <ul *ngFor="let item of subjects">
+          <li *ngIf="item.passed">{{item.name}} ({{item.id}})</li>
+        </ul>
+      </div>
+    </div>
+</div>

@@ -1,0 +1,89 @@
+.blue {
+  background-color: #4b4bff;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.control-box-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-panel-wrapper {
+  width: 130px;
+  height: 110px;
+  padding: 30px;
+  background-color: #17363d;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  color: aliceblue;
+}
+
+li {
+  margin: 2px;
+  padding: 2px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.control-panel-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 185px;
+  height: 140px;
+  background-color: #17363d;
+  padding: 15px;
+  border-radius: 5px;
+  justify-content: center;
+  margin: 3px;
+}
+
+.control-button {
+  color: aliceblue;
+  background-color: #14232d;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 25px;
+  margin: 3px;
+  height: 40px;
+}
+
+.control-button:hover {
+  background-color: #1e4550;
+  cursor: pointer;
+}
+
+.control-input {
+  color: aliceblue;
+  background-color: #1e4550;
+  outline: none;
+  border: 1px solid #14232d;
+  height: 30px;
+  padding: 5px;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+.info-text {
+  color: aliceblue;
+  background-color: #17363d;
+  width: 330px;
+  max-height: 150px;
+  margin: 3px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: justify;
+}
